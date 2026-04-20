@@ -5,3 +5,5 @@ let equal = Number(gadasaxdeliTanxa) + tip;
 console.log(equal);
 
 console.log(tip);
+
+console.log("თქვენი გადასახადი იქნება: " + equal + " ლარი, საიდანაც " + tip + " ლარი იქნება მომსახურების საფასური, ხოლო " + gadasaxdeliTanxa + " ლარი იქნება თქვენი შეკვეთის ღირებულება.");
