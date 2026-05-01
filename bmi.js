@@ -1,9 +1,25 @@
-function bmiCalculator(weight, height) {
-  let bmi = weight / (height * height);
-  Math.round(bmi);
 
-  return bmi;
-
+ 
+function Nakiani(weli) {
+  if (weli % 4 === 0) {
+    if (weli % 100 === 0) {
+      if (weli % 400 === 0) {
+        console.log("nakiania");
+      } else {
+        console.log("ar aris nakiani");
+      }
+    } else {
+      console.log("nakiania");
+    }
+  } else {
+    console.log("ar aris nakiani");
+  }
 }
 
-bmiCalculator(130, 25);
+Nakiani(2000); 
+Nakiani(1570); 
+Nakiani(2024); 
+Nakiani(2023); 
+
+
+
